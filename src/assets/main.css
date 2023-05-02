@@ -1,0 +1,63 @@
+@import "./base.css";
+
+body {
+  padding: 0;
+  margin: 0;
+}
+#hexo-circle-of-friends-root * {
+  box-sizing: border-box;
+}
+#hexo-circle-of-friends-root .fcircle_page b,
+#hexo-circle-of-friends-root .fcircle_page strong {
+  color: var(--anzhiyu-lighttext);
+}
+
+.fcircle_page a {
+  text-decoration: none;
+  word-wrap: break-word;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+  overflow-wrap: break-word;
+}
+#hexo-circle-of-friends-root img {
+  max-width: 100%;
+  transition: all 0.2s ease 0s;
+}
+
+/* 适配butterfly, 去除单页背景 */
+.fcircle_page .author-content.fcirclePage {
+  height: 19rem;
+  color: var(--anzhiyu-white);
+  overflow: hidden;
+  margin-top: 0px;
+}
+#web_bg ~ .page:has(.fcircle_page) {
+  background-color: #f7f9fe;
+}
+[data-theme="dark"] #web_bg ~ .page:has(.fcircle_page) {
+  background-color: #000;
+}
+
+#page:has(.fcircle_page) .page-title {
+  display: none;
+}
+
+#page:has(.fcircle_page) {
+  border: 0;
+  box-shadow: none !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+[data-theme="dark"] #page:has(.fcircle_page) {
+  background: transparent !important;
+}
+/* 公共样式 */
+#hexo-circle-of-friends-root hr {
+  display: flex;
+  position: relative;
+  margin: 8px 0;
+  border: 1px dashed var(--anzhiyu-theme-op);
+}
