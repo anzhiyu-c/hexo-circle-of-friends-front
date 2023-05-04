@@ -19,7 +19,7 @@ function goLink(link: string, event: any) {
         <div class="right">
           <a class="button" @click="goLink('link', $event)">
             <i
-              class="fas fa-circle-arrow-up-right"
+              class="anzhiyufont anzhiyu-icon-angle-double-down"
               style="font-size: 1.5rem"
             ></i
             ><span class="banner-button-text">关于我</span></a

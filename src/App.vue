@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2022-10-31 13:27:51
- * @LastEditTime: 2022-11-10 21:09:47
+ * @LastEditTime: 2023-05-02 13:18:48
  * @LastEditors: 安知鱼
 -->
 <script setup lang="ts">
@@ -42,6 +42,7 @@ const { managePanelShow } = storeToRefs(manageStore);
   margin: 0 auto;
   width: 100%;
   max-width: 1450px;
+  overflow: hidden;
 }
 .anzhiyu-enter-active,
 .anzhiyu-leave-active {

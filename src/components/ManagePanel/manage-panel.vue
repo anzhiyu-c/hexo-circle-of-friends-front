@@ -3,14 +3,14 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2022-11-01 16:40:21
- * @LastEditTime: 2022-12-22 13:53:06
+ * @LastEditTime: 2023-05-02 13:21:47
  * @LastEditors: 安知鱼
 -->
 <template>
   <div class="manage-panel">
     <div class="manage-panel-container">
       <div class="close-btn" @click="manageStore.managePanelShowSwitch()">
-        <i class="fas fa-circle-xmark"></i>
+        <i class="anzhiyufont anzhiyu-icon-circle-xmark"></i>
       </div>
       <ManagePanelMain v-if="loginStatus" />
       <ManagePanelLogin v-else />
@@ -100,6 +100,9 @@ if (Cache.getCache("fcircle-token")) {
       cursor: pointer;
       transition: 0.3s;
       display: flex;
+      i {
+        font-size: 25px;
+      }
       &:hover {
         color: var(--anzhiyu-main);
       }

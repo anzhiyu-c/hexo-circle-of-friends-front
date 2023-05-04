@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: 2268025923@qq.com
  * @Date: 2021-08-28 15:39:52
- * @LastEditTime: 2023-02-01 13:11:11
+ * @LastEditTime: 2023-05-02 13:16:00
  * @LastEditors: 安知鱼
  */
 
@@ -58,11 +58,10 @@ class ANRequest {
     );
 
     this.instance.interceptors.response.use(
-      (res) => {
+      (res: any) => {
         // 将loading移除
         this.loading?.close();
         const data = res.data;
-
         if (res?.response?.status === 401) {
           return 401;
         }

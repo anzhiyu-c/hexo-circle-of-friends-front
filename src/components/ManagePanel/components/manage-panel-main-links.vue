@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2022-11-03 15:31:38
- * @LastEditTime: 2022-11-04 18:20:57
+ * @LastEditTime: 2023-05-02 13:06:27
  * @LastEditors: 安知鱼
 -->
 
@@ -51,7 +51,7 @@ onUnmounted(() => {
           </el-form-item>
           <el-col :span="2">
             <el-button circle @click="linksStore.addLink">
-              <i class="fa-solid fa-plus"></i>
+              <i class="anzhiyufont anzhiyu-icon-circle-plus"></i>
             </el-button>
           </el-col>
         </el-row>
@@ -78,7 +78,7 @@ onUnmounted(() => {
           </el-col>
           <el-col :span="1">
             <el-button circle @click="linksStore.delLink(index)">
-              <i class="fa-solid fa-minus"></i>
+              <i class="anzhiyu-icon-circle-minus"></i>
             </el-button>
           </el-col>
         </el-row>

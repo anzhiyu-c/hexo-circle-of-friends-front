@@ -205,7 +205,7 @@ onMounted(() => {
         :style="setRotation('rotate(' + 360 * randomPostTimes + 'deg)')"
         @click="getRandomPost"
         rel="external nofollow"
-        ><i class="fa-solid fa-arrow-rotate-right"></i
+        ><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i
       ></a>
     </div>
     <div class="title-h2-a-right">

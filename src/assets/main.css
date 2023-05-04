@@ -1,9 +1,3 @@
-@import "./base.css";
-
-body {
-  padding: 0;
-  margin: 0;
-}
 #hexo-circle-of-friends-root * {
   box-sizing: border-box;
 }

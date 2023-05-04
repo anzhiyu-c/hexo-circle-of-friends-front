@@ -82,12 +82,15 @@ function showCardAction(link: string) {
       @click="homeStore.loadMoreArticle()"
       v-if="!isEnded"
     >
-      <i class="fas fa-angle-double-down"></i>
+      <i class="anzhiyufont anzhiyu-icon-angle-double-down"></i>
     </div>
     <div v-else class="empty">------- 没有更多了喔 -------</div>
   </div>
 
-  <div id="cf-overlay" :class="cardShow ? 'cf-show-now' : ''"></div>
+  <div
+    id="cf-overlay"
+    :class="cardShow ? 'cf-show-now item-cf-overlay' : 'item-cf-overlay'"
+  ></div>
   <div id="cf-overshow" :class="cardShow ? 'cf-show-now' : ''">
     <div class="cf-overshow-close" @click="cardShow = false"></div>
     <div class="cf-overshow">
@@ -281,7 +284,7 @@ function showCardAction(link: string) {
 // 遮罩css
 #cf-overlay,
 #cf-overshow {
-  transition: 0.3s;
+  transition: left 0.3s;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -289,6 +292,7 @@ function showCardAction(link: string) {
 #cf-overlay {
   top: 0;
   left: 100%;
+  width: 100px;
   background-color: rgba(255, 255, 255, 0.42);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -310,6 +314,7 @@ function showCardAction(link: string) {
 }
 #cf-overlay.cf-show-now {
   left: 0;
+  width: 100%;
 }
 #cf-overshow.cf-show-now {
   bottom: 0;
