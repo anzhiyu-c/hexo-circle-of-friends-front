@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2022-11-02 11:11:00
- * @LastEditTime: 2023-05-02 13:06:12
+ * @LastEditTime: 2023-05-26 10:55:53
  * @LastEditors: 安知鱼
 -->
 <script setup lang="ts">
@@ -133,7 +133,7 @@ const refresh = () => {
             class="cf-setting-main-add-btn"
             @click="settingStore.delLink(index)"
           >
-            <i class="anzhiyu-icon-circle-minus"></i>
+            <i class="anzhiyufont anzhiyu-icon-circle-minus"></i>
           </el-button>
         </div>
       </div>
@@ -166,7 +166,7 @@ const refresh = () => {
           @click="settingStore.delBlocksite(index)"
         >
           <el-icon>
-            <i class="anzhiyu-icon-circle-minus"></i>
+            <i class="anzhiyufont anzhiyu-icon-circle-minus"></i>
           </el-icon>
         </el-button>
       </el-row>

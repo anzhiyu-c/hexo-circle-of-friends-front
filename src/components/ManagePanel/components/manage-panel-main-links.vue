@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2022-11-03 15:31:38
- * @LastEditTime: 2023-05-02 13:06:27
+ * @LastEditTime: 2023-05-26 10:56:00
  * @LastEditors: 安知鱼
 -->
 
@@ -78,7 +78,7 @@ onUnmounted(() => {
           </el-col>
           <el-col :span="1">
             <el-button circle @click="linksStore.delLink(index)">
-              <i class="anzhiyu-icon-circle-minus"></i>
+              <i class="anzhiyufont anzhiyu-icon-circle-minus"></i>
             </el-button>
           </el-col>
         </el-row>
