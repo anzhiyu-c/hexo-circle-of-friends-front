@@ -86,7 +86,7 @@ const refresh = () => {
             >
               <el-input
                 v-model="item.link"
-                placeholder="示例：https://anzhiy.cn/link/"
+                placeholder="示例：https://blog.anheyu.com/link/"
                 class="input"
               />
             </el-tooltip>

@@ -1,3 +1,11 @@
+<!--
+ * @Description: 
+ * @Author: 安知鱼
+ * @Email: anzhiyu-c@qq.com
+ * @Date: 2022-10-31 13:53:36
+ * @LastEditTime: 2023-06-06 23:49:49
+ * @LastEditors: 安知鱼
+-->
 <script setup lang="ts">
 function goLink(link: string, event: any) {
   let pjax = event.currentTarget.getAttribute("data-pjax-state");
@@ -32,8 +40,6 @@ function goLink(link: string, event: any) {
 
 <style lang="less" scoped>
 .home_top {
-  background: url(https://image.anzhiy.cn/adminuploads/1/2022/08/21/630249e2df20f.jpg)
-    left 28% / cover no-repeat;
   border-radius: 15px;
   height: 19rem;
   color: var(--anzhiyu-white);

@@ -43,7 +43,7 @@ function changeSort(val: any) {
       </div>
       <div>
         FrontEnd by
-        <a href="https://anzhiy.cn/" target="_blank">AnZhiYu</a>
+        <a href="https://blog.anheyu.com/" target="_blank">AnZhiYu</a>
       </div>
       <div id="cf-footer-info">
         <div class="cf-data-friends">

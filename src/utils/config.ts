@@ -3,14 +3,14 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2022-10-31 16:13:44
- * @LastEditTime: 2022-11-04 19:09:56
+ * @LastEditTime: 2023-06-06 23:50:42
  * @LastEditors: 安知鱼
  */
 const DefaultConfig: any = {
   // private_api_url: 'https://fcircle.yyyzyyyz.cn',
   // private_api_url: 'http://192.168.142.88:8000',
-  private_api_url: "https://friends.anzhiy.cn/",
-  public_api_url: "https://friends.anzhiy.cn/",
+  private_api_url: "https://friends.anheyu.com/",
+  public_api_url: "https://friends.anheyu.com/",
   page_default_number: 20,
   page_turning_number: 20,
   error_img: "https://sdn.geekzu.org/avatar/57d8260dfb55501c37dde588e7c3852c",

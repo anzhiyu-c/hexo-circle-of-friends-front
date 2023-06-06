@@ -25,7 +25,9 @@
       原版样式基于：<a href="https://immmmm.com/" target="_blank">林木木</a>
     </p>
     <p>
-      前端疑难杂症解决：<a href="https://anzhiy.cn/" target="_blank">安知鱼</a>
+      前端疑难杂症解决：<a href="https://blog.anheyu.com/" target="_blank"
+        >安知鱼</a
+      >
     </p>
     <p>
       组件库：<a href="https://element-plus.gitee.io/zh-CN/" target="_blank"

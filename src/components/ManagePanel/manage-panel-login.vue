@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2022-11-01 19:18:49
- * @LastEditTime: 2022-11-04 18:43:18
+ * @LastEditTime: 2023-06-06 23:50:05
  * @LastEditors: 安知鱼
 -->
 
@@ -32,7 +32,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <img src="https://slave.anzhiy.cn/login-logo.89cb9239.svg" alt="logo" />
+  <img src="@/assets/img/login-logo.svg" alt="logo" />
   <h1 class="cf-manage-title">友链朋友圈管理面板</h1>
   <el-input
     class="cf-manage-input"

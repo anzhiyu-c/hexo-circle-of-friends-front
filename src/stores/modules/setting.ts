@@ -3,7 +3,7 @@
  * @Author: 安知鱼
  * @Email: anzhiyu-c@qq.com
  * @Date: 2022-11-01 19:26:55
- * @LastEditTime: 2023-02-01 13:27:17
+ * @LastEditTime: 2023-06-06 23:48:56
  * @LastEditors: 安知鱼
  */
 import {
@@ -19,7 +19,7 @@ const useSettingStore = defineStore("setting", {
     currentSettings: {
       LINK: [
         {
-          link: "https://anzhiy.cn/link/",
+          link: "https://blog.anheyu.com/link/",
           theme: "common2",
         },
       ],
